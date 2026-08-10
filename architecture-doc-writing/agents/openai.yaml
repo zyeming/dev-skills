@@ -1,0 +1,7 @@
+interface:
+  display_name: '架构文档编写'
+  short_description: '编写 ARCHITECTURE、模块架构文档和 ADR'
+  default_prompt: '使用 $architecture-doc-writing 为当前项目创建或更新收敛版架构文档，重点记录边界、所有权、约束、禁止事项和扩展规则。'
+
+policy:
+  allow_implicit_invocation: false

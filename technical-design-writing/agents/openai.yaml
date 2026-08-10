@@ -1,0 +1,7 @@
+interface:
+  display_name: '技术实现方案'
+  short_description: '编写 Technical Design 和 Implementation Plan'
+  default_prompt: '使用 $technical-design-writing 为当前需求编写可 review、可实现、可验收的技术实现方案。'
+
+policy:
+  allow_implicit_invocation: false
