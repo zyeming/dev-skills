@@ -1,0 +1,6 @@
+interface:
+  display_name: "需求文档编写"
+  short_description: "创建、评审、精简和更新结构清晰、可验收、可追溯的产品与软件需求文档"
+  default_prompt: "使用 $requirements-document-writing 创建或更新需求文档；无法确定的业务规则先向我澄清，暂未决策的内容集中保留在待定内容章节。"
+policy:
+  allow_implicit_invocation: false

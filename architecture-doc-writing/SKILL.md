@@ -156,13 +156,14 @@ description: 创建、审查或更新软件项目架构文档时使用，包括�
 - 接受有代价的捷径。
 - 故意违反既有架构规则的例外。
 
-## 与技术实现方案的边界
+## 与需求级方案的边界
 
-本技能不用于编写单个需求的 Technical Design / Implementation Plan。
+本技能不用于编写单个需求的 Technical Design 或 Implementation Plan。
 
-如果用户要的是“这次需求怎么实现、改哪些模块、风险和测试是什么”，应使用 `$technical-design-writing`。
+- 需要人类评审目标方案、数据与接口变化、核心流程和关键取舍时，使用 `$technical-design-writing`。
+- 目标方案已明确，需要代码落点、实施顺序、测试和验证方式时，使用 `$implementation-plan-writing`。
 
-架构文档记录长期稳定约束；技术实现方案记录具体需求的短中期实现蓝图。若技术方案改变了长期约束，再回到本技能更新 `ARCHITECTURE.md`、模块架构文档或 ADR。
+架构文档记录长期稳定约束；Technical Design 记录具体需求的目标方案；Implementation Plan 记录方案怎样落实到当前代码。若需求方案改变了长期约束，再回到本技能更新 `ARCHITECTURE.md`、模块架构文档或 ADR。
 
 ## 写作规则
 
