@@ -1,6 +1,6 @@
 interface:
   display_name: "技术实现方案"
-  short_description: "编写前后端分章、字段清楚且便于评审的概要技术方案"
-  default_prompt: "使用 $technical-design-writing 基于需求和现有代码编写概要方案：优先沿用同应用已有的分层、接口和数据处理方式；明确说明数据模型和 API 变化，只保留重要边界，保持简洁易读。"
+  short_description: "编写结构清楚、契约准确并包含上线准备的概要技术方案"
+  default_prompt: "使用 $technical-design-writing 基于需求和现有代码编写概要方案：明确数据模型、API 和上线前准备，沿用现有架构习惯并保持简洁易读。"
 policy:
   allow_implicit_invocation: false
