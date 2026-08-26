@@ -1,6 +1,6 @@
 interface:
-  display_name: "技术实现方案"
-  short_description: "编写结构清楚、契约准确并包含上线准备的概要技术方案"
-  default_prompt: "使用 $technical-design-writing 基于需求和现有代码编写概要方案：明确数据模型、API 和上线前准备，沿用现有架构习惯并保持简洁易读。"
+  display_name: "技术设计文档"
+  short_description: "编写和审查契约准确、结构清楚的 Technical Design"
+  default_prompt: "使用 $technical-design-writing 基于需求和现有代码编写或优化技术设计：讲清数据模型、API、服务归属和上线边界，保留关键设计并删除重复说明。"
 policy:
   allow_implicit_invocation: false
