@@ -1,0 +1,7 @@
+interface:
+  display_name: "前端接入文档"
+  short_description: "编写和评审面向前端的 API 契约、调用流程与兼容指南"
+  default_prompt: "使用 $frontend-integration-document-writing 基于需求、设计和当前接口编写或评审前端接入文档，讲清 API 输入输出、变化、不变项和调用边界。"
+
+policy:
+  allow_implicit_invocation: false
